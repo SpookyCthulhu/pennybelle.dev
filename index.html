@@ -1,13 +1,84 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <div class="borderline center">
-            <div class="whiteline center">
-                <div class="pinkbox center"></div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penelope Belle Freeman</title>
+		<script src="https://kit.fontawesome.com/226c4c713d.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .outer-container {
+            background-color: pink;
+            padding: 15px;
+        }
+        .middle-container {
+            background-color: #eee;
+            padding: 15px;
+        }
+        .inner-container {
+            background-color: pink;
+            padding: 30px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .button-container a {
+            text-decoration: none;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .button-container a:hover {
+            background-color: #555;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="middle-container">
+            <div class="inner-container">
+                <h1>Penelope Belle Freeman</h1>
+                <div class="button-container">
+                    <a href="https://www.linkedin.com/in/pennybelle/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/pennybelle" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+    <footer>
+        <h1>contact@pennybelle.dev</h1>
+    </footer>
+</body>
 </html>
